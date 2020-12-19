@@ -4,3 +4,14 @@ if not functions -q fisher
     fish -c fisher
 end
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/matthewtattoli/google-cloud-sdk/path.fish.inc' ]; . '/Users/matthewtattoli/google-cloud-sdk/path.fish.inc'; end
+
+
+alias df='df -h'
+alias more=less
+export VISUAL="nvim"
+export EDITOR="nvim"
+set -gx PATH $PATH $HOME/.krew/bin
+
