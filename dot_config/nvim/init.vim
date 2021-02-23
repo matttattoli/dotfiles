@@ -33,3 +33,5 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set mouse=a
+set clipboard+=unnamedplus
+
