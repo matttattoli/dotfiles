@@ -1,6 +1,7 @@
 [bootstrap.repos]
 "~/gitrepos/dotfiles" = { url = "git@github.com:matttattoli/dotfiles.git", ref = "main" }
 "~/.tmux-plugins/tmux-resurrect" = { url = "https://github.com/tmux-plugins/tmux-resurrect", ref = "cff343cf9e81983d3da0c8562b01616f12e8d548" }
+"~/.tmux-plugins/tmux-continuum" = { url = "https://github.com/tmux-plugins/tmux-continuum.git", ref = "0698e8f4b17d6454c71bf5212895ec055c578da0" }
 
 [settings]
 minimum_release_age = "14d"
@@ -13,6 +14,7 @@ dotfiles.root = "~/gitrepos/dotfiles"
 "/home/matthew/.gitconfig" = { mode = "symlink" }
 
 [tools]
+difftastic = "latest"
 fzf = "latest"
 gh = "latest"
 helm = "4"
