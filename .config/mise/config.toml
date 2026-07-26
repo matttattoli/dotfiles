@@ -8,8 +8,8 @@ minimum_release_age = "14d"
 dotfiles.root = "~/gitrepos/dotfiles"
 
 [dotfiles]
-"~/.config/alacritty/alacritty.toml" = "~/gitrepos/dotfiles/dot_config/alacritty/alacritty.toml"
-"~/.tmux.conf" = "~/gitrepos/dotfiles/dot_tmux.conf"
+"~/.config/alacritty/alacritty.toml" = "~/gitrepos/dotfiles/.config/alacritty/alacritty.toml"
+"~/.tmux.conf" = "~/gitrepos/dotfiles/.tmux.conf"
 "/home/matthew/.config/mise/config.toml" = { mode = "symlink" }
 "/home/matthew/.gitconfig" = { mode = "symlink" }
 "/home/matthew/.config/starship.toml" = { mode = "symlink" }
