@@ -1,0 +1,16 @@
+[user]
+	name = Matthew Tattoli
+	email = matttattoli@gmail.com
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
+[fetch]
+	prune = true
+[rebase]
+	autosquash = true
+	autostash = true
+[rerere]
+	enabled = true
+[diff]
+	external = difft --ignore-comments
