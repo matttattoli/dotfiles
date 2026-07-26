@@ -12,6 +12,7 @@ dotfiles.root = "~/gitrepos/dotfiles"
 "~/.tmux.conf" = "~/gitrepos/dotfiles/dot_tmux.conf"
 "/home/matthew/.config/mise/config.toml" = { mode = "symlink" }
 "/home/matthew/.gitconfig" = { mode = "symlink" }
+"/home/matthew/.config/starship.toml" = { mode = "symlink" }
 
 [tools]
 difftastic = "latest"
