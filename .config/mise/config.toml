@@ -1,0 +1,21 @@
+[bootstrap.repos]
+"~/gitrepos/dotfiles" = { url = "git@github.com:matttattoli/dotfiles.git", ref = "main" }
+"~/.tmux-plugins/tmux-resurrect" = { url = "https://github.com/tmux-plugins/tmux-resurrect", ref = "cff343cf9e81983d3da0c8562b01616f12e8d548" }
+
+[settings]
+minimum_release_age = "14d"
+dotfiles.root = "~/gitrepos/dotfiles"
+
+[dotfiles]
+"~/.config/alacritty/alacritty.toml" = "~/gitrepos/dotfiles/dot_config/alacritty/alacritty.toml"
+"~/.tmux.conf" = "~/gitrepos/dotfiles/dot_tmux.conf"
+"/home/matthew/.config/mise/config.toml" = { mode = "symlink" }
+"/home/matthew/.gitconfig" = { mode = "symlink" }
+
+[tools]
+fzf = "latest"
+gh = "latest"
+helm = "4"
+helm-diff = "latest"
+neovim = "latest"
+node = "lts"
