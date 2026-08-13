@@ -10,9 +10,9 @@ dotfiles.root = "~/gitrepos/dotfiles"
 [dotfiles]
 "~/.config/alacritty/alacritty.toml" = "~/gitrepos/dotfiles/.config/alacritty/alacritty.toml"
 "~/.tmux.conf" = "~/gitrepos/dotfiles/.tmux.conf"
-"/home/matthew/.config/mise/config.toml" = { mode = "symlink" }
-"/home/matthew/.gitconfig" = { mode = "symlink" }
-"/home/matthew/.config/starship.toml" = { mode = "symlink" }
+"~/.config/mise/config.toml" = { mode = "symlink" }
+"~/.gitconfig" = { mode = "symlink" }
+"~/.config/starship.toml" = { mode = "symlink" }
 
 [tools]
 "aqua:neovim" = "latest"
