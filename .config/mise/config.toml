@@ -15,10 +15,10 @@ dotfiles.root = "~/gitrepos/dotfiles"
 "/home/matthew/.config/starship.toml" = { mode = "symlink" }
 
 [tools]
+"aqua:neovim" = "latest"
 difftastic = "latest"
 fzf = "latest"
 gh = "latest"
 helm = "4"
 helm-diff = "latest"
-neovim = "latest"
 node = "lts"
