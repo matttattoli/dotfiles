@@ -5,9 +5,8 @@ if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
 endif
 
 call plug#begin()
-  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   Plug 'junegunn/fzf.vim'
-  
+
   Plug 'vim-airline/vim-airline'
 
   Plug 'sonph/onehalf', {'rtp': 'vim/'}
@@ -34,4 +33,3 @@ set shiftwidth=2
 set expandtab
 set mouse=a
 set clipboard+=unnamedplus
-
