@@ -23,6 +23,7 @@
     "dock": "left",
   },
   "git_panel": {
+    "group_by": "staging",
     "dock": "left",
   },
   "cursor_shape": "block",
