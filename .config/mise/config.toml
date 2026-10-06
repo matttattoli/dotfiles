@@ -9,10 +9,15 @@ dotfiles.root = "~/gitrepos/dotfiles"
 
 [dotfiles]
 "~/.config/alacritty/alacritty.toml" = "~/gitrepos/dotfiles/.config/alacritty/alacritty.toml"
-"~/.tmux.conf" = "~/gitrepos/dotfiles/.tmux.conf"
 "~/.config/mise/config.toml" = { mode = "symlink" }
-"~/.gitconfig" = { mode = "symlink" }
 "~/.config/starship.toml" = { mode = "symlink" }
+"~/.config/zed/settings.json" = { mode = "symlink"}
+"~/.var/app/dev.zed.Zed/config/zed/settings.json" = "~/gitrepos/dotfiles/.config/zed/settings.json"
+"~/.gitconfig" = { mode = "symlink" }
+"~/.tmux.conf" = "~/gitrepos/dotfiles/.tmux.conf"
+
+[oci]
+from = "fedora:44"
 
 [tools]
 "aqua:neovim" = "latest"
