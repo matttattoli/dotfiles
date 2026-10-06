@@ -6,6 +6,7 @@
 [settings]
 minimum_release_age = "7d"
 dotfiles.root = "~/gitrepos/dotfiles"
+experimental = true
 
 [dotfiles]
 "~/.config/alacritty/alacritty.toml" = "~/gitrepos/dotfiles/.config/alacritty/alacritty.toml"
