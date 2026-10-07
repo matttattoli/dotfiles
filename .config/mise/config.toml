@@ -2,6 +2,10 @@
 "~/gitrepos/dotfiles" = { url = "https://github.com/matttattoli/dotfiles.git", ref = "main" }
 "~/.tmux-plugins/tmux-resurrect" = { url = "https://github.com/tmux-plugins/tmux-resurrect", ref = "cff343cf9e81983d3da0c8562b01616f12e8d548" }
 "~/.tmux-plugins/tmux-continuum" = { url = "https://github.com/tmux-plugins/tmux-continuum.git", ref = "0698e8f4b17d6454c71bf5212895ec055c578da0" }
+"~/.nvim-plugins/junegunn/vim-plug" = { url = "https://github.com/junegunn/vim-plug.git", ref = "4da42e9a5c948fb82970d522bd14cbab3d122ff1" }
+"~/.nvim-plugins/junegunn/fzf.vim" = { url = "https://github.com/junegunn/fzf.vim.git", ref = "023de3c0e158ff9c2b0992175af10be97c2f2158" }
+"~/.nvim-plugins/vim-airline/vim-airline" = { url = "https://github.com/vim-airline/vim-airline.git", ref = "ae24f4aca06731d5d7224df1fc5415975331b214" }
+"~/.nvim-plugins/sonph/onehalf" = { url = "https://github.com/sonph/onehalf.git", ref = "75eb2e97acd74660779fed8380989ee7891eec56"}
 
 [settings]
 minimum_release_age = "7d"
@@ -16,6 +20,8 @@ experimental = true
 "~/.var/app/dev.zed.Zed/config/zed/settings.json" = "~/gitrepos/dotfiles/.config/zed/settings.json"
 "~/.gitconfig" = { mode = "symlink" }
 "~/.tmux.conf" = "~/gitrepos/dotfiles/.tmux.conf"
+"~/.local/share/nvim/site/autoload/plug.vim" = "~/.nvim-plugins/junegunn/vim-plug/plug.vim"
+"~/.config/nvim/init.vim" = { mode = "symlink" }
 
 [oci]
 from = "fedora:44"
