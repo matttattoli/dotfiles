@@ -2,6 +2,7 @@
 dimensions = { columns = 120, lines = 30 }
 padding = { x = 24, y = 24 }
 opacity = 0.90
+option_as_alt = "Both"
 
 [scrolling]
 history = 100000
